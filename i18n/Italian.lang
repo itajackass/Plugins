@@ -2,9 +2,8 @@
  * Italian translation
  *  @name Italian
  *  @anchor Italian
- *  @author Nicola Zecchin & Giulio Quaresima
+ *  @author Giuseppe Lodi Rizzini
  */
-
 {
 	"sEmptyTable":     "Nessun dato presente nella tabella",
 	"sInfo":           "Vista da _START_ a _END_ di _TOTAL_ elementi",
@@ -15,16 +14,38 @@
 	"sLengthMenu":     "Visualizza _MENU_ elementi",
 	"sLoadingRecords": "Caricamento...",
 	"sProcessing":     "Elaborazione...",
-	"sSearch":         "Cerca:",
+	"sSearch":         "Filtro rapido:",
 	"sZeroRecords":    "La ricerca non ha portato alcun risultato.",
 	"oPaginate": {
 		"sFirst":      "Inizio",
-		"sPrevious":   "Precedente",
-		"sNext":       "Successivo",
+		"sPrevious":   "<i class='fa fa-angle-left'></i>",
+		"sNext":       "<i class='fa fa-angle-right'></i>",
 		"sLast":       "Fine"
 	},
 	"oAria": {
 		"sSortAscending":  ": attiva per ordinare la colonna in ordine crescente",
 		"sSortDescending": ": attiva per ordinare la colonna in ordine decrescente"
+	},
+	"select": {
+        "rows": {
+            "_": "%d righe selezionate",
+            "0": "",
+            "1": "1 riga selezionata"
+        }
+    },
+	"buttons": {
+		"print":	"Stampa",
+		"colvis":	"Visualizza",
+		"copy":		"Copia",
+		"copyTitle":	"Copia negli appunti",
+		"copyKeys":	"Premi <i>ctrl</i> o <i>\u2318</i> + <i>C</i>.<br><br>Per annullare, premi ESC.",
+		"copySuccess": {
+			"_": "%d righe copiate",
+			"1": "1 riga copiata"
+		},
+		"pageLength": {
+			"-1": "Mostra tutte",
+			"_":  "Mostra %d righe"
+		}
 	}
 }
